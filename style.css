@@ -22,31 +22,27 @@ h1 {
 .hero-container {
     display: flex;
     padding: 80px 0px;
+    gap: 100px;
 }
 
 .hero-left {
-    flex-basis: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
+button:hover {
+    background-color: green;
+}
+
 .signup-button {
     max-width: 33%;
-    padding: 5px;
+    padding: 10px;
     background-color: #3882f6;
     color: #e5e7eb;
     border-radius: 5px;
     border: 0px;
     font-size: 18px;
-}
-
-.hero-image {
-    flex-basis: 100% !important;
-}
-.hero-image {
-    width: 400px;
-    height: 200px;
 }
 
 .hero-text {
@@ -82,22 +78,22 @@ a, .hero-subtext {
 }
 
 .small-square-image {
-    width: 150px;
-    height: 150px;
+    max-width: 300px;
+    max-height: 300px;
     border-radius: 10px;
 }
 
 .box-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
     margin-bottom: 48px;
 }
 
 .images-section {
     display: flex;
     justify-content: center;
-    gap: 48px;
+    gap: 100px;
 }
 
 .image-container {
@@ -105,7 +101,6 @@ a, .hero-subtext {
     flex-direction: column;
     text-wrap-mode: wrap;
     text-align: center;
-    width: 150px;
 }
 
 .section-header {
@@ -132,6 +127,7 @@ a, .hero-subtext {
     display: flex;
     justify-content: end;
     padding-right: 40px;
+    padding: 20px;
     font-size: 24px;
     font-weight: bold;
 }
