@@ -38,6 +38,7 @@ h1 {
     color: #e5e7eb;
     border-radius: 5px;
     border: 0px;
+    font-size: 18px;
 }
 
 .hero-image {
@@ -133,4 +134,27 @@ a, .hero-subtext {
     padding-right: 40px;
     font-size: 24px;
     font-weight: bold;
+}
+
+.call-container {
+    background-color: #3882f6;
+    margin: 100px 200px;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2, p {
+    margin: 0;
+    color: white;
+}
+
+.signup-button-inverted {
+    border: 2px solid white;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px 20px;
+    font-size: 24px;
 }
