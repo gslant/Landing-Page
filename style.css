@@ -113,3 +113,24 @@ a, .hero-subtext {
     font-weight: 900;
     padding: 48px;
 }
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 300px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-attribution {
+    display: flex;
+    justify-content: end;
+    padding-right: 40px;
+    font-size: 24px;
+    font-weight: bold;
+}
