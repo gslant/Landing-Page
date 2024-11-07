@@ -4,9 +4,12 @@
 
 body {
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.header {
+.header, .footer {
     background-color: #1f2937;
     padding: 0px 200px;
 }
@@ -66,5 +69,13 @@ ul {
 a, .hero-subtext {
     text-decoration: none;
     font-size: 18px;
+    color: #e5e7eb;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
     color: #e5e7eb;
 }
